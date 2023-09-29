@@ -13,3 +13,23 @@
 body{
     min-width: 320px;
 }
+a{
+    text-decoration:none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+/* Entête du site contenant le logo et le menu de navigation */
+    /* Logo */
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        padding-top: 25px;
+        padding-left: 45px;       
+    }
+    img#logo{
+        height: 55px;   
+    }
