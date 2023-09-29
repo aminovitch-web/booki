@@ -33,3 +33,34 @@ li{
     img#logo{
         height: 55px;   
     }
+    /* menu */
+    .navlist{
+        height:auto;
+    }
+    ul.navlist{
+        display: flex;
+        font-weight: 500;
+        height:100%;
+    }
+    ul.navlist:hover{
+        font-weight: 500;
+    }
+    li.navlist__lodging, li.navlist__activity{
+        width: 200px;
+        text-align: center;
+        height:100%;
+        /*padding-top: 40px; */
+    }
+    li.navlist__lodging:hover a, li.navlist__activity:hover a, li.navlist__lodging:focus a, li.navlist__activity:focus a, li.navlist__lodging:active a, li.navlist__activity:active a{
+        color: #0065FC; 
+    }  
+    li.navlist__lodging:hover, li.navlist__activity:hover, li.navlist__lodging:focus, li.navlist__activity:focus, li.navlist__lodging:active, li.navlist__activity:active{
+        border-top: 3px solid #0065FC;;
+        color: #0065FC;  
+    }
+    .navlist a{
+        height:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
