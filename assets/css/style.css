@@ -1,0 +1,15 @@
+
+*{
+    font-family: 'Raleway', sans-serif; /* Un nom de police suivi d'un nom de famille générique */
+    box-sizing: border-box; /* indique au navigateur de prendre en compte la bordure et le remplissage dans la valeur définie pour la largeur et la hauteur */
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width:1500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body{
+    min-width: 320px;
+}
